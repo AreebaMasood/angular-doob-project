@@ -1,0 +1,69 @@
+h2{
+    font-weight: 700;
+    
+}
+.container {
+  
+    max-width: 1170px;
+    margin: 0px auto;
+    width: 100%;
+    
+  }
+#contact{
+    padding-bottom: 4rem;
+    
+}
+.contact-title h2{
+    color: #314584;
+}
+.contact-title p{
+    color: #ff3946;
+    padding-left: 5px;
+}
+.form{
+    padding-top: 2rem;
+    align-items: center;
+    text-align: center;
+}
+.form-control{
+    background-color: #f4fafe;
+    color: #314584;
+    font-weight: 600;
+}
+#email{
+    margin-right: 2rem;
+    max-width: 585px;
+    max-height: 62px;
+    border: none;
+    padding: 20px;
+}
+#subject{
+    max-width: 585px;
+    max-height: 62px;
+    border: none;
+    padding: 20px;
+}
+
+#message{
+   margin-top: 1rem;
+    max-width: 1170px;
+ height: 128px;
+ border: none;
+ padding: 10px;
+}
+#message::placeholder{
+   text-align: start;
+  margin-top: -1rem;
+  
+}
+.contact-btn{
+    align-items: center;
+    text-align: center;
+}
+#send-message{
+
+    margin-top: 2rem;
+}
+.form-control::placeholder{
+    color: #314584;
+}

@@ -1,0 +1,56 @@
+h2{
+    font-weight: 700;
+    
+}
+.container {
+  
+    max-width: 1170px;
+    margin: 0px auto;
+    width: 100%;
+    
+  }
+#about{
+    background-image: url(../../../../assets/images/about-bg.png);
+    min-height: 300px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 279px 484px;
+      margin: 0 auto;
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+  }
+  .about-image{
+     
+      max-width: 26rem;
+      padding-bottom: 2rem;
+  }
+  
+  .carousal-text h6{
+  color: #ff3946;
+  padding-bottom: 1rem;
+  }
+  .carousal-text h2,p{
+      color: #314584;
+      }
+      .carousal-text h2{
+          font-size: xx-large;
+          padding-bottom: 2rem;
+      }
+      .carousal-text p{
+          font-size: small;
+      }
+   
+  
+  .carousel-control-prev-icon img{
+      position: absolute;
+      left: -1px;
+      top: 279px;
+      cursor: pointer;
+  }
+  .carousel-control-next-icon img{
+      position: absolute;
+      right: 482px;
+      top: 279px;
+      cursor: pointer;
+  }
+  

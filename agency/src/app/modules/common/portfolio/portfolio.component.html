@@ -1,0 +1,66 @@
+<section id="portfolio">
+    <div class="container">
+      <h2>
+        See Some Of Our <br />
+        Creative Work
+      </h2>
+      <div class="multiple-carousal">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="portfolio-arrows">
+            <div class="cats-slide-arrow py-2">
+              <a (click)="next()" class="cp next-arrow"><img src="assets/images/back-icon.png"
+                  class="portfolio-back-icon" /></a>
+              <a (click)="prev()" class="cp prev-arrow"><img src="assets/images/forward-icon.png"
+                  class="portfolio-forward-icon" /></a>
+            </div></div>
+  
+            <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+              <div ngxSlickItem class="slide">
+                <img src="assets/images/portfolio.png" />
+              </div>
+              <div ngxSlickItem class="slide">
+                <img src="assets/images/portfolio.png" />
+              </div>
+              <div ngxSlickItem class="slide">
+                <img src="assets/images/portfolio.png" />
+              </div>
+              <div ngxSlickItem class="slide">
+                <img src="assets/images/portfolio.png" />
+              </div>
+              <div ngxSlickItem class="slide">
+                <img src="assets/images/portfolio.png" />
+              </div>
+              <div ngxSlickItem class="slide">
+                <img src="assets/images/portfolio.png" />
+              </div>
+            </ngx-slick-carousel>
+            <ngx-slick-carousel class="carousel" #slickModal2="slick-carousel" [config]="slideConfig2">
+              <div ngxSlickItem class="slide py-2">
+                <img src="assets/images/portfolio.png" />
+              </div>
+              <div ngxSlickItem class="slide py-2">
+                <img src="assets/images/portfolio.png" />
+              </div>
+              <div ngxSlickItem class="slide py-2">
+                <img src="assets/images/portfolio.png" />
+              </div>
+              <div ngxSlickItem class="slide py-2">
+                <img src="assets/images/portfolio.png" />
+              </div>
+              <div ngxSlickItem class="slide py-2">
+                <img src="assets/images/portfolio.png" />
+              </div>
+              <div ngxSlickItem class="slide py-2">
+                <img src="assets/images/portfolio.png" />
+              </div>
+            </ngx-slick-carousel>
+  
+          </div>
+  
+        </div>
+      </div>
+  
+      <p class="portfolio-endline">See more of These</p>
+    </div>
+  </section>

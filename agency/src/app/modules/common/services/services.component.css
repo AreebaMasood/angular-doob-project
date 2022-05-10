@@ -1,0 +1,110 @@
+h2{
+    font-weight: 700;
+    
+}
+.container {
+  
+    max-width: 1170px;
+    margin: 0px auto;
+    width: 100%;
+    
+  }
+  #services{
+    background: url(../../../../assets/images/services-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    min-height: 379px;
+    background-size: 196px 632px;
+}
+.services-section-1{
+    width: 323px;
+    margin: 0px auto;
+    
+}
+.services-title{
+    color: #314584;
+    padding-bottom: 1.5rem;
+    font-weight: 400;
+   
+}
+
+.services-section-2{
+    width: 323px;
+    margin: 0px auto;
+   height: 380px;
+    padding-bottom: 1rem;
+   
+}
+.services-section-3{
+    width: 323px;
+    margin: 0px auto;
+   
+    height: 380px;
+}
+.section-2-img, .section-3-img{
+   
+    width: 40px;
+    height: 40px;
+}
+.card-body{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #314584;
+}
+.card-title{
+    padding-top: 35px;
+    padding-bottom: 15px;
+    font-size: large;
+    font-weight: 700;
+}
+.card-text{
+    font-weight:600;
+    padding-bottom: 30px;
+    font-size: x-small;
+}
+/* ------about section------ */
+#about{
+  background-image: url(../../../../assets/images/about-bg.png);
+  min-height: 300px;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 279px 484px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+.about-image{
+   
+    max-width: 26rem;
+    padding-bottom: 2rem;
+}
+
+.carousal-text h6{
+color: #ff3946;
+padding-bottom: 1rem;
+}
+.carousal-text h2,p{
+    color: #314584;
+    }
+    .carousal-text h2{
+        font-size: xx-large;
+        padding-bottom: 2rem;
+    }
+    .carousal-text p{
+        font-size: small;
+    }
+ 
+
+.carousel-control-prev-icon img{
+    position: absolute;
+    left: -1px;
+    top: 279px;
+    cursor: pointer;
+}
+.carousel-control-next-icon img{
+    position: absolute;
+    right: 482px;
+    top: 279px;
+    cursor: pointer;
+}

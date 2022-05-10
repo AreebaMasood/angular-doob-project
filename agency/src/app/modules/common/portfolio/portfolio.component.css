@@ -1,0 +1,48 @@
+h2{
+    font-weight: 700;
+    
+}
+.container {
+  
+    max-width: 1170px;
+    margin: 0px auto;
+    width: 100%;
+    
+  }
+#portfolio{
+    background: url(../../../../assets/images/portfolio-bg.png);
+    background-repeat: no-repeat;
+    background-position: top 135px left;
+   
+    min-height: 880px;
+    background-size: 674px 911px;
+
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+#portfolio h2{
+    color: #314584;
+    padding-bottom: 1rem;
+    
+}
+.portfolio-arrows{
+    min-height: 50px;
+}
+
+
+.portfolio-endline{
+    text-align: center;
+    color: #ff3946;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+.portfolio-back-icon{
+    position: absolute;
+    right: 248px;
+    cursor: pointer;
+}
+.portfolio-forward-icon{
+    position: absolute;
+    right: 200px;
+    cursor: pointer;
+}

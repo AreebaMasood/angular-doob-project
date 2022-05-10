@@ -1,0 +1,100 @@
+h2{
+    font-weight: 700;
+    
+}
+.container {
+  
+    max-width: 1170px;
+    margin: 0px auto;
+    width: 100%;
+    
+  }
+#blog{
+    background-image: url(../../../../assets/images/blog-bg.png);
+    min-height: 347px;
+    background-position: top 115px right;
+    background-repeat: no-repeat;
+    background-size: 216px 418px;
+   
+   
+}
+
+.blog-title p{
+    color: #ff3946;
+    padding-left: 5px;
+}
+.blog-title h2{
+    color: #314584;
+}
+.blog-arrows{
+    min-height: 22px;
+}
+.blog-back-icon {
+    position: absolute;
+    cursor: pointer;
+    right: 260px;
+}
+.blog-forward-icon {
+    position: absolute;
+    cursor: pointer;
+    right: 216px;
+
+}
+#blog-card-arrow-icon{
+    float: right;
+    color: #ff3946;
+    cursor: pointer;
+}
+
+.card-01:hover, .card-02:hover, .card-03:hover {
+    background-color: #ff3946;
+    color: white;
+    
+}
+.card-01:hover p,.card-02:hover p,.card-03:hover p{
+color: white;
+}
+.s:hover{
+    color: white;
+    }
+.card-01, .card-02, .card-03 {
+    background-color: white;
+    color: #314584;
+    padding: 1rem 3rem;
+    
+    
+   
+}
+.card-01 p, .card-02 p, .card-03 p{
+    font-size: xx-small;
+    color: #314584;
+}
+.card-01, .card-02, .card-03{
+    padding-bottom: 3rem;
+}
+#blog-card-arrow-icon:hover{
+    color: white;
+    cursor: pointer;
+    
+}
+
+.card-text-01, .card-text-02, .card-text-03{
+    margin-top: -14px;
+}
+.card-body{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #314584;
+}
+.card-title{
+    padding-top: 35px;
+    padding-bottom: 15px;
+    font-size: large;
+    font-weight: 700;
+}
+.card-text{
+    font-weight:600;
+    padding-bottom: 30px;
+    font-size: x-small;
+}

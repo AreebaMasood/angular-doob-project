@@ -1,0 +1,493 @@
+<section id="navbar">
+  <div class="container pt-3">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#banner">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+          <div class="right-nav">
+            <div class="d-inline-block" ngbDropdown #myDrop="ngbDropdown">
+              <button type="button" class="btn btn-outline-primary ml-auto me-2" id="dropdownManual" ngbDropdownAnchor
+                (focus)="myDrop.open()">
+                EN
+              </button>
+              <div ngbDropdownMenu aria-labelledby="dropdownManual">
+                <button class="d1" ngbDropdownItem>Urdu</button>
+                <button class="d1" ngbDropdownItem>Deutche</button>
+                <button class="d1" ngbDropdownItem>Italian</button>
+              </div>
+            </div>
+            <button type="button" class="btn btn-c shadow">
+              Contact Us<i class="fa-solid fa-arrow-right "id="header-arrow-icon" ></i>
+            
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</section>
+<!-- header ends -->
+<!-- banner section -->
+<app-banner></app-banner>
+<!-- <section id="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="title">
+          <h1 class="banner-title">
+            The Spirit of <br />
+            Digital Agency.
+          </h1>
+          <p class="banner-para">
+            Vestibulum ac diam sit amet quam vehicula elementum amet <br />
+            est on dui. Nulla porttitor accumsan tincidunt.
+          </p>
+          <div class="title-buttons">
+            <button type="button" class="btn btn-danger">More About Us</button>
+            <button id="btn-touch" type="button" class="btn btn-light">
+              Get In Touch
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- banner section ends -->
+<!-- services section  -->
+<app-services></app-services>
+<!-- <section id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 py-2">
+        <div class="services-section-1">
+          <h2 class="services-title">
+            Anything you <br />
+            need,we’ve <br />
+            got you covered
+          </h2>
+          <button type="button" class="btn btn-danger">Get In Touch</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="services-section-2 py-2">
+          <div class="card shadow-sm" style="width: 13rem">
+            <div class="card-body">
+              <img src="assets/images/service1.png" class="section-2-img" />
+              <h5 class="card-title">
+                Web & Graphic <br />
+                Design
+              </h5>
+              <p class="card-text">
+                Vestibulum ac diam sit amet quam vehicula elementum amet est on
+                dui. Nulla porttitor accumsan tincidunt.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="services-section-3">
+          <div class="card shadow-sm" style="width: 13rem">
+            <div class="card-body">
+              <img src="assets/images/service2.png" class="section-3-img" />
+              <h5 class="card-title">Web & App Development</h5>
+              <p class="card-text">
+                Vestibulum ac diam sit amet quam vehicula elementum amet est on
+                dui. Nulla porttitor accumsan tincidunt.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- about section -->
+<app-about></app-about>
+<!-- <section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6" style="width: 571px">
+        <img src="assets/images/about.png" class="about-image" />
+      </div>
+      <div class="col-md-6" style="width: 571px">
+        <div class="carousal-text">
+          <div id="carousel-1" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h6>OUR COMPANY</h6>
+                <h2>
+                  Some Fine <br />
+                  Words About Us
+                </h2>
+                <p>
+                  Vestibulum ac diam sit amet quam vehicula elementum amet
+                  <br />
+                  est on dui. Nulla porttitor accumsan tincidunt.Vestibulum ac
+                  <br />
+                  diam sit amet. <br />Quam vehicula elementum amet est on dui.
+                  Nulla porttitor ac<br />cumsan tincidunt.
+                </p>
+              </div>
+              <div class="carousel-item">
+                <h6>OUR mission</h6>
+                <h2>
+                  Some ambitious <br />
+                  Words About Us
+                </h2>
+                <p>
+                  Vestibulum ac diam sit amet quam vehicula elementum amet est
+                  on dui. Nulla porttitor accumsan tincidunt.Vestibulum ac diam
+                  sit amet. Quam vehicula elementum amet est on dui. Nulla
+                  porttitor accumsan tincidunt.
+                </p>
+              </div>
+              <div class="carousel-item">
+                <h6>OUR vision</h6>
+                <h2>
+                  Some goals <br />
+                  Words About Us
+                </h2>
+                <p>
+                  Vestibulum ac diam sit amet quam vehicula elementum amet est
+                  on dui. Nulla porttitor accumsan tincidunt.Vestibulum ac diam
+                  sit amet. Quam vehicula elementum amet est on dui. Nulla
+                  porttitor accumsan tincidunt.
+                </p>
+              </div>
+            </div>
+            <div class="buttongroup">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"><img src="assets/images/back-icon.png"
+                    alt="" /></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"><img src="assets/images/forward-icon.png"
+                    alt="" /></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- about section ends -->
+<!-- portfolio section -->
+<app-portfolio></app-portfolio>
+<!-- <section id="portfolio">
+  <div class="container">
+    <h2>
+      See Some Of Our <br />
+      Creative Work
+    </h2>
+    <div class="multiple-carousal">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="portfolio-arrows">
+          <div class="cats-slide-arrow py-2">
+            <a (click)="next()" class="cp next-arrow"><img src="assets/images/back-icon.png"
+                class="portfolio-back-icon" /></a>
+            <a (click)="prev()" class="cp prev-arrow"><img src="assets/images/forward-icon.png"
+                class="portfolio-forward-icon" /></a>
+          </div></div>
+
+          <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+            <div ngxSlickItem class="slide">
+              <img src="assets/images/portfolio.png" />
+            </div>
+            <div ngxSlickItem class="slide">
+              <img src="assets/images/portfolio.png" />
+            </div>
+            <div ngxSlickItem class="slide">
+              <img src="assets/images/portfolio.png" />
+            </div>
+            <div ngxSlickItem class="slide">
+              <img src="assets/images/portfolio.png" />
+            </div>
+            <div ngxSlickItem class="slide">
+              <img src="assets/images/portfolio.png" />
+            </div>
+            <div ngxSlickItem class="slide">
+              <img src="assets/images/portfolio.png" />
+            </div>
+          </ngx-slick-carousel>
+          <ngx-slick-carousel class="carousel" #slickModal2="slick-carousel" [config]="slideConfig2">
+            <div ngxSlickItem class="slide py-2">
+              <img src="assets/images/portfolio.png" />
+            </div>
+            <div ngxSlickItem class="slide py-2">
+              <img src="assets/images/portfolio.png" />
+            </div>
+            <div ngxSlickItem class="slide py-2">
+              <img src="assets/images/portfolio.png" />
+            </div>
+            <div ngxSlickItem class="slide py-2">
+              <img src="assets/images/portfolio.png" />
+            </div>
+            <div ngxSlickItem class="slide py-2">
+              <img src="assets/images/portfolio.png" />
+            </div>
+            <div ngxSlickItem class="slide py-2">
+              <img src="assets/images/portfolio.png" />
+            </div>
+          </ngx-slick-carousel>
+
+        </div>
+
+      </div>
+    </div>
+
+    <p class="portfolio-endline">See more of These</p>
+  </div>
+</section> -->
+<!-- portfolio section ends -->
+<!-- blog section -->
+<app-blog></app-blog>
+<!-- <section id="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="blog-title">
+          <p>Blog Stories</p>
+          <h2>Check Our News</h2>
+          <div class="blog-arrows">
+            <a (click)="next3()" class="cp next-arrow"><img src="assets/images/forward-icon.png"
+                class="blog-forward-icon" /></a>
+            <a (click)="prev3()" class="cp prev-arrow">
+              <img src="assets/images/back-icon.png" class="blog-back-icon" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <ngx-slick-carousel class="carousel" #slickModal3="slick-carousel" [config]="slideConfig3">
+        <div ngxSlickItem class="slide">
+          <div class="col-md-4" style="width: 363px">
+            <div class="card-01">
+              <div class="card-body-01">
+                <h6 class="card-title">New Adventure</h6>
+                <p class="card-text-01">
+                  <small class="s">17 March 2019</small>
+                </p>
+                <p class="card-text-01">
+                  Vestibulum ac diam sit amet quam vehicula elementum amet est
+                  on dui. Nulla porttitor accumsan tincidunt.
+                </p>
+                <i class="fa-solid fa-arrow-right" id="blog-card-arrow-icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div ngxSlickItem class="slide">
+          <div class="col-md-4" style="width: 363px">
+            <div class="card-02">
+              <div class="card-body-02">
+                <h6 class="card-title">New Adventure</h6>
+                <p class="card-text-02">
+                  <small class="s">17 March 2019</small>
+                </p>
+                <p class="card-text-02">
+                  Vestibulum ac diam sit amet quam vehicula elementum amet est
+                  on dui. Nulla porttitor accumsan tincidunt.
+                </p>
+                <i class="fa-solid fa-arrow-right" id="blog-card-arrow-icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div ngxSlickItem class="slide">
+          <div class="col-md-4" style="width: 363px">
+            <div class="card-03">
+              <div class="card-body-03">
+                <h6 class="card-title">New Adventure</h6>
+                <p class="card-text-03">
+                  <small class="s">17 March 2019</small>
+                </p>
+                <p class="card-text-03">
+                  Vestibulum ac diam sit amet quam vehicula elementum amet est
+                  on dui. Nulla porttitor accumsan tincidunt.
+                </p>
+                <i class="fa-solid fa-arrow-right" id="blog-card-arrow-icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div ngxSlickItem class="slide">
+          <div class="col-md-4" style="width: 363px">
+            <div class="card-03">
+              <div class="card-body-03">
+                <h6 class="card-title">4th</h6>
+                <p class="card-text-03">
+                  <small class="s">17 March 2019</small>
+                </p>
+                <p class="card-text-03">
+                  Vestibulum ac diam sit amet quam vehicula elementum amet est
+                  on dui. Nulla porttitor accumsan tincidunt.
+                </p>
+                <img src="assets/images/header-arrow.png" class="card-arrow" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div ngxSlickItem class="slide">
+          <div class="col-md-4" style="width: 363px">
+            <div class="card-03">
+              <div class="card-body-03">
+                <h6 class="card-title">5th</h6>
+                <p class="card-text-03">
+                  <small class="s">17 March 2019</small>
+                </p>
+                <p class="card-text-03">
+                  Vestibulum ac diam sit amet quam vehicula elementum amet est
+                  on dui. Nulla porttitor accumsan tincidunt.
+                </p>
+                <img src="assets/images/header-arrow.png" class="card-arrow" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </ngx-slick-carousel>
+      <!-- <div class="col-md-4" style="width: 371px">
+        <div class="card-01">
+          <div class="card-body-01">
+            <h6 class="card-title">New Adventure</h6>
+            <p class="card-text-01"><small class="s">17 March 2019</small></p>
+            <p class="card-text-01">
+              Vestibulum ac diam sit amet quam vehicula elementum amet est on
+              dui. Nulla porttitor accumsan tincidunt.
+            </p>
+            <img src="assets/images/header-arrow.png" class="card-arrow" />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" style="width: 371px">
+        <div class="card-02">
+          <div class="card-body-02">
+            <h6 class="card-title">New Adventure</h6>
+            <p class="card-text-02"><small class="s">17 March 2019</small></p>
+            <p class="card-text-02">
+              Vestibulum ac diam sit amet quam vehicula elementum amet est on
+              dui. Nulla porttitor accumsan tincidunt.
+            </p>
+            <img src="assets/images/header-arrow.png" class="card-arrow" />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" style="width: 371px">
+        <div class="card-03">
+          <div class="card-body-03">
+            <h6 class="card-title">New Adventure</h6>
+            <p class="card-text-03"><small class="s">17 March 2019</small></p>
+            <p class="card-text-03">
+              Vestibulum ac diam sit amet quam vehicula elementum amet est on
+              dui. Nulla porttitor accumsan tincidunt.
+            </p>
+            <img src="assets/images/header-arrow.png" class="card-arrow" />
+          </div>
+        </div>
+      </div> -->
+    <!-- </div>
+  </div>
+</section> --> 
+<!-- contact section -->
+<app-contact></app-contact>
+<!-- <section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <div class="contact-title">
+          <p>Contact Us</p>
+          <h2>Get in Touch</h2>
+          <div class="form">
+            <div class="row">
+              <div class="col-md-06">
+                <div class="input-group">
+                  <input type="text" aria-label="e-mail" placeholder="Your Email" class="form-control" id="email" />
+                  <input type="text" aria-label="subject" placeholder="Subject" class="form-control" id="subject" />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="input-group">
+                  <input type="textarea" aria-label="message" placeholder="Message here..." class="form-control"
+                    id="message" />
+                </div>
+              </div>
+            </div>
+            <div class="contact-btn">
+              <div class="row">
+                <div class="col-md-12">
+                  <button type="button" class="btn btn-danger" id="send-message">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- contact section ends -->
+<!-- footer section -->
+<app-footer></app-footer>
+<!-- <section id="footer">
+  <div class="container">
+    <h6>DOOB</h6>
+    <h2>CREATIVTY ABOVE</h2>
+    <div class="footer-nav">
+      <ul class="nav justify-content-center">
+        <li class="nav-items">
+          <a class="nav-link active" aria-current="page" href="#banner">Home</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-link" href="#services">About Us</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-link" href="#blog">Blog</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-link" href="#contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+
+    <p><small> © 2019 - Doob,All Right Reserved</small></p>
+
+    <div class="footer-icons">
+      <span><img src="assets/images/f-icon.png" /></span>
+      <span><img src="assets/images/t-icon.png" /></span>
+      <span><img src="assets/images/drible-icon.png" /></span>
+    </div>
+  </div>
+</section> -->
