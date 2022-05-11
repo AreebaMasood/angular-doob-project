@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, HostListener } from '@angular/core';
 import { SlickCarouselComponent } from 'ngx-slick-carousel';
 
 @Component({
@@ -22,8 +22,19 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
   
   }
+ 
 
-
+  header_variable=false;
+  @HostListener("document:scroll")
+  scrollfunction(){
+    if(document.body.scrollTop > 0 || document.documentElement.scrollTop >0 )
+    {
+      this.header_variable=true;
+    }
+    else{
+      this.header_variable=false;
+    }
+  }
 
   // Slider Cats
   slideConfig = {

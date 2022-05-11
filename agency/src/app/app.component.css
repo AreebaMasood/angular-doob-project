@@ -6,6 +6,7 @@
 *{
     font-family: 'Work Sans', sans-serif;
 } */
+
 h2{
     font-weight: 700;
     
@@ -17,6 +18,25 @@ h2{
     width: 100%;
     
   }
+  .header_change{
+      position: fixed;
+      background-color: #314584;
+      width: 100%;
+      z-index: 1;
+      top: 0;
+      left: 0;
+  }
+ .header_change .nav-link{
+     color: white;
+
+ }
+ .header_change #dropdownManual{
+     color: white;
+ }
+ .header_change .btn-c{
+     color: white;
+ }
+
   .navbar-brand{
      
       padding-top: 2rem;
